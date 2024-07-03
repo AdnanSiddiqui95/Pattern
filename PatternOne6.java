@@ -1,9 +1,9 @@
-public class PatternOne6 
+public class PatternOne6
 {
 	public static void main(String[] args) 
 	{
 		int n=5;
-		for(int r=1;r<=n;r++)
+		for(int r=n;r>=1;r--)
 		{
 			for(int s=n-r;s>=1;s--)
 			{
@@ -19,7 +19,7 @@ public class PatternOne6
 			}
 			System.out.println();
 		}
-		for(int r=n-1;r>=1;r--)
+		for(int r=2;r<=n;r++)
 		{
 			for(int s=n-r;s>=1;s--)
 			{
@@ -35,6 +35,7 @@ public class PatternOne6
 			}
 			System.out.println();
 		}
+		
 	}
 
 }
